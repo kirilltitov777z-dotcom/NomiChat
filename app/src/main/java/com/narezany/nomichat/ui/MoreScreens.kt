@@ -49,7 +49,7 @@ fun ProfileScreen(store: ChatStore) {
                 Modifier
                     .fillMaxWidth()
                     .background(Color.White)
-                    .padding(horizontal = 18.dp, top = 22.dp, bottom = 20.dp),
+                    .padding(start = 18.dp, end = 18.dp, top = 22.dp, bottom = 20.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
                 Text("Профиль", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = TextMain,

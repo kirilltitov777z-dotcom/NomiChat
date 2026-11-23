@@ -51,7 +51,7 @@ fun GiftsScreen(store: ChatStore) {
             Modifier
                 .fillMaxWidth()
                 .background(Color.White)
-                .padding(horizontal = 18.dp, top = 18.dp, bottom = 14.dp),
+                .padding(start = 18.dp, end = 18.dp, top = 18.dp, bottom = 14.dp),
         ) {
             Text("Подарки", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = TextMain)
             Text("Отправь немного тепла", fontSize = 13.sp, color = TextGray)
